@@ -1,0 +1,24 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases & uploads (exclude sensitive candidate personal data)
+data/*.db
+data/*.xlsx
+uploads/*
+!uploads/.gitkeep
+
+# Streamlit logs
+.streamlit/secrets.toml
